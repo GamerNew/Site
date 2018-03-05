@@ -1,0 +1,88 @@
+
+header, main, footer {
+    padding-left: 220px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+header .side-nav>div {
+    padding: 10px 15px;
+}
+
+header .side-nav img{
+    width: 100%;
+    height: auto
+}
+.Idiv{
+    border-bottom: solid 1px  rgba(0,0,0,.50);
+
+}
+.mycolor{
+    background-color: #343030;
+}
+header .side-nav.fixed{
+    width: 220px !important ;
+}
+div.painel{
+    height: 300px;
+    background: linear-gradient(to bottom left,#ffffff,#343030);
+}
+main.row{
+    margin-top: -170px;!important;
+}
+div.home{
+    padding: 2.5px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: -170px;!important;
+ }
+div.container{
+    width: 90%!important;
+}div .gif{
+    height: 450px;
+    background-image: url("http://winnerhun.uw.hu/vigyorpofa.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.slider .indicators {display: none}
+
+.myimg{
+    width:100%;
+    height:auto;
+}
+.pg1{
+    position: relative;
+    display: inline-block;
+    height:320px;
+    width:100%;
+}
+
+.col.s12{
+    padding: 0 !important;
+}
+
+.pg1 .pg2 {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    float: left;
+}
+.pg1 .pg2 img{
+    width:100%;
+}
+.pg1 .pg{
+    display: inline-block;
+    padding: 0 10px 0 30px;
+    position: absolute;
+}
+p.dc{
+    height: 160px;
+    display: block;
+    }
+.leia-mais{
+
+}
