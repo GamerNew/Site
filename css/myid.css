@@ -1,0 +1,50 @@
+/* cores*/
+.mycolor{
+    background-color: #343030;
+}
+/*painei e container*/
+div.painel{
+    height: 200px;
+    background: linear-gradient(to bottom left,#ffffff,#343030);
+}
+div.pimg {
+    margin-top: -180px!important;
+}
+ul.indicators{
+    display: none!important;
+}
+/*fim painei e container*/
+/* cards*/
+div.card{
+    padding: 0!important;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+div.card .img-card{
+    height: 100%;
+    margin-left: 0 auto;
+    width:35%;
+    background-image: url("../img/gamer new perfil.jpg");
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+div.card .txt-card{
+    display: inline-block;
+    width: 64%;
+    float: right;
+    position: relative;
+}
+div.card .txt-card .lnk{
+    background-color:white;
+    border-top: #343030 2px solid;
+    z-index: 1;
+    height: 50px;
+    margin-top:45px;
+}
+/*fim0- cards*/
+/*publicidade*/
+div.pub{
+   height: 120px!important;
+}
